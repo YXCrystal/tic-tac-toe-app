@@ -1,0 +1,80 @@
+.container {
+  font-family: 'Raleway', sans-serif;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  background-color: #8f76b5;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.form {
+  margin: 0 auto;
+}
+
+.line {
+  width: 100%;
+  margin-top: 3rem;
+  border-bottom: 1px solid grey;
+}
+
+.player {
+  margin: 0 auto;
+  margin-top: 2rem;
+  text-align: center;
+  color: #705a91;
+  font-size: 2.5rem;
+}
+
+.player_label {
+  margin-bottom: 1.3rem;
+}
+
+.player_field {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  font-size: 1.5rem;
+}
+
+.player_btn {
+  margin-top: 2.2rem;
+}
+
+.button {
+  background-color: #8f76b5;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  padding: 0.5rem 1rem;
+}
+
+.button:hover {
+  background-color: #705a91;
+}
+
+.grid-container {
+  margin: 0 auto;
+  margin-top: 4rem;
+  width: 60%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  padding: 1rem;
+}
+
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 3rem 0.5rem;
+  font-size: 3rem;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+}
+/*# sourceMappingURL=main.css.map */
