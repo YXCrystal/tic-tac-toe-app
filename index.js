@@ -132,7 +132,7 @@ const gameController = (function() {
                         }
                     } else if (win == true) {
                         let winner = 
-                        alert(`${player} Won!`)
+                        alert(`Player ${player} Won!`)
                     }
                 }));
             });
